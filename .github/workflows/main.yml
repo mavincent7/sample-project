@@ -30,8 +30,6 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v1.6
         env: 
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          sonar.projectKey: mavincent7_sample-project
-          sonar.organization: mavincent7
 
       # Runs a single command using the runners shell
       - name: Install
