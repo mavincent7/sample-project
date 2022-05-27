@@ -30,6 +30,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v1.6
         env: 
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Runs a single command using the runners shell
       - name: Install
